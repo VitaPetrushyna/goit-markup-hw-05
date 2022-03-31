@@ -563,6 +563,59 @@ address {
 }
 
 /* Portfolio page */
+
+.projects-image-s {
+  position: relative;
+}
+.projects-image-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 370px;
+  height: 294px;
+  padding: 63px 24px;
+  background-color: rgba(33, 150, 243, 0.9);
+  opacity: 0;
+}
+.projects-image-hover:hover {
+  opacity: 1;
+}
+.item-images-text {
+  font-size: 18px;
+  line-height: 1.556;
+  letter-spacing: 0.03em;
+  color: var(--primary-bg-color);
+}
+
+/*
+.bg-item-images:hover::before {
+  opacity: 1;
+}
+.projects-image-hover {
+  position: relative;
+}
+.bg-item-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 63px 24px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 370px;
+  height: 294px;
+  background-color: rgba(33, 150, 243, 0.9);
+  opacity: 0;
+}
+.item-images-text {
+  width: 322px;
+  height: 168px;
+  font-size: 18px;
+  line-height: 1, 556;
+  color: var(--primary-bg-color);
+}
+*/
+
 /* Project-filter */
 .buttons-list {
   display: flex;
